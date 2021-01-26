@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { GlobalStyles } from "./global-styles";
 import { App } from "./app";
 import { FirebaseContext } from "./context/firebase";
+//import { seedDatabase } from "./seed";
 
 const config = {
   apiKey: "AIzaSyB_m4rteqKkdMfB4L-B_bl0HAC3i-cBVHA",
@@ -15,6 +16,7 @@ const config = {
 };
 
 const firebase = window.firebase.initializeApp(config);
+//seedDatabase(firebase);
 
 ReactDOM.render(
   <>
@@ -25,3 +27,5 @@ ReactDOM.render(
   </>,
   document.getElementById("root")
 );
+
+// after seeding db change rules to: allow read, write: if request.auth.uid != null
