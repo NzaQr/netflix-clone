@@ -13,9 +13,9 @@ export default function Home() {
           <Feature.Title>
             Unlimited films, TV programmes and more.
           </Feature.Title>
-          <Feature.Subtitle>
+          <Feature.SubTitle>
             Watch anywhere. Cancel at any time.
-          </Feature.Subtitle>
+          </Feature.SubTitle>
           <OptForm>
             <OptForm.Input placeholder="Email Address" />
             <OptForm.Button>Try it now</OptForm.Button>
