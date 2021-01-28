@@ -1,1 +1,1 @@
-#  A Netflix clone built with React 
+A Netflix clone built with React 
